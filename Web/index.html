@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitios Turisticos del Caqueta</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1998/1998721.png">
+  <link rel="stylesheet" href="./css/indexStyle.css" />
+
+  <!-- librerias -->
+  <!-- bulma css estilos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+
+  <!--leaflet-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body is-paddingless">
+      <div class="container">
+        <div class="card">
+          <div class="card-image">
+            <figure class="video video-map-container">
+              <video id="myVideo" class="is-medium" controls>
+                Tu navegador no soporta el elemento de video.
+              </video>
+              <div id="leafletmap" style="height: 400px; width: 100%;"></div>
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img id="siteImage" src="" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4" id="siteName"></p>
+                <p class="subtitle is-6" id="siteLocation"></p>
+              </div>
+            </div>
+            <div class="content" id="siteSummary">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- librerias -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+  <script type="module" src="./js/info.js"></script>
+</body>
+</html>

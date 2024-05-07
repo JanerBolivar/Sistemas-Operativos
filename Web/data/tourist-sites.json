@@ -1,0 +1,44 @@
+{
+  "status": 1,
+  "sites": [
+    {
+      "label": 0,
+      "nameSite": "Museo Metropolitano de Arte",
+      "summary": "El Museo Metropolitano de Arte, ubicado en la Ciudad de Nueva York, es uno de los museos más grandes y destacados del mundo. Alberga una vasta colección que abarca desde antigüedades hasta arte contemporáneo.",
+      "location": {
+        "longitud": -73.9632,
+        "latitud": 40.7794
+      },
+      "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/61/95/89/the-met-fifth-avenue.jpg?w=1200&h=-1&s=1",
+      "video": "/videos/Museoarte.mp4",
+      "country": "Estados Unidos",
+      "city": "Nueva York"
+    },
+    {
+      "label": 1,
+      "nameSite": "Torre Eiffel",
+      "summary": "La Torre Eiffel es una estructura de hierro ubicada en París, Francia. Es uno de los monumentos más reconocibles del mundo y una atracción turística icónica.",
+      "location": {
+        "longitud": 2.2945,
+        "latitud": 48.8584
+      },
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Eiffelturm.JPG/420px-Eiffelturm.JPG",
+      "video": "/videos/Eiffel.mp4",
+      "country": "Francia",
+      "city": "París"
+    },
+    {
+      "label": 2,
+      "nameSite": "Gran Muralla China",
+      "summary": "La Gran Muralla China es una antigua fortificación en China y una de las maravillas arquitectónicas más impresionantes del mundo. Se extiende por miles de kilómetros y es un importante destino turístico.",
+      "location": {
+        "longitud": 116.4039,
+        "latitud": 40.4586
+      },
+      "img": "https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2710344.jpg?w=760&h=509",
+      "video": "/videos/GranMurallaChina.mp4",
+      "country": "China",
+      "city": "Beijing"
+    }
+  ]
+}

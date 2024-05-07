@@ -1,0 +1,46 @@
+/* Estilo para Firefox */
+body {
+    scrollbar-width: thin;
+    /* "auto" o "thin" */
+    scrollbar-color: #1f2229 #00d1b2;
+    /* thumb y track */
+}
+
+/* Estilo para Chrome, Edge y Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #00d1b2;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1f2229;
+    border-radius: 15px;
+    border: 3px solid #00d1b2;
+}
+
+#map {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: calc(90vh - 40px);
+    z-index: 1;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.video-map-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.video-map-container video {
+    width: 48%;
+}
+
+.video-map-container #leafletmap {
+    width: 48%;
+}
