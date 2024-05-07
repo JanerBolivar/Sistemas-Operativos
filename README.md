@@ -31,3 +31,28 @@ Luego, en la sección de herramientas del Arduino IDE, selecciona lo siguiente:
 Presiona el botón de subir código en el Arduino IDE. Cuando aparezca el mensaje "Subiendo (Upload)", presiona el botón BOOT en tu ESP32 y mantenlo presionado hasta que se complete la carga del código.
 
 ¡Listo! Tu ESP32 está ahora codificado y listo para funcionar como cámara.
+
+
+
+## Ejecución del Script de Python
+
+Para ejecutar el script de Python, sigue estos pasos:
+
+1. Ejecuta todos los comandos que se muestran en el archivo `Librerias.txt`.
+
+Además, asegúrate de realizar las siguientes modificaciones:
+
+- Actualiza la ruta donde se encuentra ubicado el modelo previamente entrenado (`best.pt`).
+
+  ![image](https://github.com/JanerBolivar/Sistemas-Operativos/assets/101657362/db39141a-21cb-4aa6-9fcb-84cba7938426)
+
+  
+- Modifica la ruta donde se encuentra el archivo JSON que contiene la información sobre los diferentes monumentos.
+
+  ![image](https://github.com/JanerBolivar/Sistemas-Operativos/assets/101657362/44a9762c-9e9c-4c1a-a3ba-4bb0059a7616)
+
+
+¡Listo! Ahora el script de Python está configurado y listo para ser ejecutado.
+
+**Recuerda que el ordenador donde se ejecute el script de Python debe estar conectado a la misma red que el ESP32.**
+
