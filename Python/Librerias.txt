@@ -1,0 +1,12 @@
+
+pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt
+
+pip install opencv-python
+
+pip install numpy
+
+pip install torch
+
+pip install requests
+
+pip install json
